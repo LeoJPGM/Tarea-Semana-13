@@ -23,6 +23,7 @@ public class Main {
 
             switch (opcion) {
                 case 1 -> {
+                    Circulo circulo = new Circulo(5);
                     System.out.println("Que es lo que desea calcular de la figura \"Circulo\"?");
                     System.out.println("1) Area");
                     System.out.println("2) Perimetro");
@@ -31,9 +32,11 @@ public class Main {
 
                     if(subopcion == 1)
                     {
+                        circulo.calcular_Area();
                     }
                     else if(subopcion == 2)
                     {
+                        circulo.calcular_Perimetro();
                     }
                     else
                     {

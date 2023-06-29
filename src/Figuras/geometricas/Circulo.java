@@ -19,6 +19,9 @@ public class Circulo extends Figura {
 
     @Override
     public double calcular_Perimetro() {
-        return 0;
+        double perimetro = 2 * Math.PI * radio;
+
+        System.out.println("El perimetro del \"Circulo\" es: " + perimetro + "\n");
+        return perimetro;
     }
 }
