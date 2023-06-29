@@ -31,11 +31,9 @@ public class Main {
 
                     if(subopcion == 1)
                     {
-
                     }
                     else if(subopcion == 2)
                     {
-
                     }
                     else
                     {

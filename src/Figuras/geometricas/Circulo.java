@@ -2,6 +2,7 @@ package Figuras.geometricas;
 
 import Calculos.Figuras.Figura;
 
+//En revision
 public class Circulo extends Figura {
     private double radio;
 
