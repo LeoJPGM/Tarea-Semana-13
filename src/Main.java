@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int opcion;
+        int opcion, subopcion;
 
         do
         {
@@ -23,35 +23,124 @@ public class Main {
 
             switch (opcion) {
                 case 1 -> {
+                    System.out.println("Que es lo que desea calcular de la figura \"Circulo\"?");
+                    System.out.println("1) Area");
+                    System.out.println("2) Perimetro");
+                    System.out.print("Selecciona una opcion: ");
+                    subopcion = scanner.nextInt();
 
-                    System.out.println("El area del \"Circulo\" es: ");
-                    System.out.println("El perimetro del \"Circulo\" es: ");
+                    if(subopcion == 1)
+                    {
 
+                    }
+                    else if(subopcion == 2)
+                    {
+
+                    }
+                    else
+                    {
+                        System.out.println("¡Opcion invalida!");
+                    }
                 }
                 case 2 -> {
+                    System.out.println("Que es lo que desea calcular de la figura \"Triangulo\"?");
+                    System.out.println("1) Area");
+                    System.out.println("2) Perimetro");
+                    System.out.print("Selecciona una opcion: ");
+                    subopcion = scanner.nextInt();
 
-                    System.out.println("El area del \"Triangulo\" es: ");
-                    System.out.println("El perimetro del \"Triangulo\" es: ");
+                    if(subopcion == 1)
+                    {
+
+                    }
+                    else if(subopcion == 2)
+                    {
+
+                    }
+                    else
+                    {
+                        System.out.println("¡Opcion invalida!");
+                    }
                 }
                 case 3 -> {
+                    System.out.println("Que es lo que desea calcular de la figura \"Cuadrado\"?");
+                    System.out.println("1) Area");
+                    System.out.println("2) Perimetro");
+                    System.out.print("Selecciona una opcion: ");
+                    subopcion = scanner.nextInt();
 
-                    System.out.println("El area del \"Cuadrado\" es: ");
-                    System.out.println("El perimetro del \"Cuadrado\" es: ");
+                    if(subopcion == 1)
+                    {
+
+                    }
+                    else if(subopcion == 2)
+                    {
+
+                    }
+                    else
+                    {
+                        System.out.println("¡Opcion invalida!");
+                    }
                 }
                 case 4 -> {
+                    System.out.println("Que es lo que desea calcular de la figura \"Esfera\"?");
+                    System.out.println("1) Area");
+                    System.out.println("2) Perimetro");
+                    System.out.print("Selecciona una opcion: ");
+                    subopcion = scanner.nextInt();
 
-                    System.out.println("El area del \"Esfera\" es: ");
-                    System.out.println("El perimetro del \"Esfera\" es: ");
+                    if(subopcion == 1)
+                    {
+
+                    }
+                    else if(subopcion == 2)
+                    {
+
+                    }
+                    else
+                    {
+                        System.out.println("¡Opcion invalida!");
+                    }
                 }
                 case 5 -> {
+                    System.out.println("Que es lo que desea calcular de la figura \"Piramide\"?");
+                    System.out.println("1) Area");
+                    System.out.println("2) Perimetro");
+                    System.out.print("Selecciona una opcion: ");
+                    subopcion = scanner.nextInt();
 
-                    System.out.println("El area del \"Piramide\" es: ");
-                    System.out.println("El perimetro del \"Piramide\" es: ");
+                    if(subopcion == 1)
+                    {
+
+                    }
+                    else if(subopcion == 2)
+                    {
+
+                    }
+                    else
+                    {
+                        System.out.println("¡Opcion invalida!");
+                    }
                 }
                 case 6 -> {
+                    System.out.println("Que es lo que desea calcular de la figura \"Cubo\"?");
+                    System.out.println("1) Area");
+                    System.out.println("2) Perimetro");
+                    System.out.print("Selecciona una opcion: ");
+                    subopcion = scanner.nextInt();
 
-                    System.out.println("El area del \"Cubo\" es: ");
-                    System.out.println("El perimetro del \"Cubo\" es: ");
+                    if(subopcion == 1)
+                    {
+
+                    }
+                    else if(subopcion == 2)
+                    {
+
+                    }
+                    else
+                    {
+                        System.out.println("¡Opcion invalida!");
+                    }
                 }
                 case 7 -> System.out.println("¡Hasta luego!");
 

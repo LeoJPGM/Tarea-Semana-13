@@ -5,7 +5,8 @@ import Calculos.Figuras.Figura;
 public class Circulo extends Figura {
     private double radio;
 
-    public Circulo(){
+    public Circulo(double radio){
+        this.radio = radio;
     }
     @Override
     public double calcular_Area() {
